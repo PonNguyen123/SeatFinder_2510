@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Sơ đồ chỗ ngồi",
+      "hasCanvas": false,
+      "bodyTextLen": 363,
+      "bodyTextHash": "6b2a89fe3c5d224399cba8e18016d841fcd43d13a0a13050f06fed8aaa6f2823",
+      "bodyTextPrefix": "TIỆC CƯỚI Sơ đồ chỗ ngồi Cảm ơn quý khách đã đến chung vui. Nhập",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Sơ đồ chỗ ngồi",
+      "hasCanvas": false,
+      "bodyTextLen": 234,
+      "bodyTextHash": "2089c46bbbd787882be429454d33da48ea8ae1f413d2d3d753e9880aceae6aec",
+      "bodyTextPrefix": "TIỆC CƯỚI Sơ đồ chỗ ngồi Cảm ơn quý khách đã đến chung vui. Nhập",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

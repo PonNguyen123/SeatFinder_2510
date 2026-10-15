@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Perandory;
+  src: url("/fonts/Perandory.woff2") format("woff2");
+  font-display: swap;
+}
+
+@theme {
+  --color-paper: #fcfbfa;
+  --color-cream: #f9e7c9;
+  --color-wine: #670f0f;
+  --color-sky: #bdd6ea;
+  --color-navy: #1e3557;
+  --font-mark: "Perandory", "Playfair Display", serif;
+  --font-display: "Playfair Display", "Times New Roman", serif;
+  --font-script: "Great Vibes", cursive;
+  --font-sans: "Raleway", system-ui, sans-serif;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--color-wine);
+    background-image:
+      radial-gradient(ellipse at 50% 38%, rgb(103 15 15 / 0) 0%, rgb(32 5 5 / 0.35) 100%),
+      url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2272%22%20height%3D%2272%22%20viewBox%3D%220%200%2072%2072%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%233A0909%22%20stroke-opacity%3D%221%22%20stroke-width%3D%221.35%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M%2061.46%2046.54%20L%2046.54%2061.46%20L%2025.46%2061.46%20L%2010.54%2046.54%20L%2010.54%2025.46%20L%2025.46%2010.54%20L%2046.54%2010.54%20L%2061.46%2025.46%20Z%22%2F%3E%3Cpath%20d%3D%22M%2017.67%2036.00%20a%2018.33%2018.33%200%201%200%2036.66%200%20a%2018.33%2018.33%200%201%200%20-36.66%200%22%2F%3E%3Cpath%20d%3D%22M%2025.46%2025.46%20H%2046.54%20V%2046.54%20H%2025.46%20Z%22%2F%3E%3Cpath%20d%3D%22M%2029.89%2029.89%20H%2042.11%20V%2042.11%20H%2029.89%20Z%22%2F%3E%3Cpath%20d%3D%22M%20-10.54%2025.46%20H%2010.54%20V%2046.54%20H%20-10.54%20Z%20M%2061.46%2025.46%20H%2082.54%20V%2046.54%20H%2061.46%20Z%20M%2025.46%20-10.54%20H%2046.54%20V%2010.54%20H%2025.46%20Z%20M%2025.46%2061.46%20H%2046.54%20V%2082.54%20H%2025.46%20Z%22%2F%3E%3Cpath%20d%3D%22M%200.00%2030.10%20L%205.90%2036.00%20L%200.00%2041.90%20L%20-5.90%2036.00%20Z%20M%2072.00%2030.10%20L%2077.90%2036.00%20L%2072.00%2041.90%20L%2066.10%2036.00%20Z%20M%2036.00%20-5.90%20L%2041.90%200.00%20L%2036.00%205.90%20L%2030.10%200.00%20Z%20M%2036.00%2066.10%20L%2041.90%2072.00%20L%2036.00%2077.90%20L%2030.10%2072.00%20Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-size: 100% 100%, 22px 22px;
+    background-attachment: fixed;
+    color: var(--color-cream);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+}
+
+@keyframes seat-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
+@keyframes route-march {
+  to {
+    stroke-dashoffset: -80;
+  }
+}
+
+.seat-ring {
+  animation: seat-pulse 1.4s ease-in-out infinite;
+}
+
+.route-line {
+  stroke-dasharray: 18 12;
+  animation: route-march 1.1s linear infinite;
+}
+
+@property --frame-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.frame-orbit {
+  padding: 2px;
+  background: conic-gradient(
+    from var(--frame-angle),
+    rgb(249 231 201 / 0.28) 0deg,
+    #fff8ee 55deg,
+    #bdd6ea 110deg,
+    #fff8ee 165deg,
+    rgb(249 231 201 / 0.45) 230deg,
+    rgb(249 231 201 / 0.2) 310deg,
+    rgb(249 231 201 / 0.28) 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  filter: drop-shadow(0 0 6px rgb(249 231 201 / 0.9)) drop-shadow(0 0 14px rgb(189 214 234 / 0.55));
+  animation: frame-orbit 6s linear infinite;
+}
+
+.corner-glow {
+  filter: drop-shadow(0 0 4px rgb(249 231 201 / 0.9)) drop-shadow(0 0 8px rgb(189 214 234 / 0.65));
+}
+
+@keyframes frame-orbit {
+  to {
+    --frame-angle: 360deg;
+  }
+}
+
+.meander-x {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='8' viewBox='0 0 24 8'%3E%3Cpath d='M0 1.5H6V6.5H12V1.5H18V6.5H24V1.5' fill='none' stroke='%23F9E7C9' stroke-width='1.15' stroke-linejoin='miter'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: left center;
+  background-size: 24px 8px;
+}
+
+.meander-y {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='24' viewBox='0 0 8 24'%3E%3Cpath d='M1.5 0V6H6.5V12H1.5V18H6.5V24H1.5' fill='none' stroke='%23F9E7C9' stroke-width='1.15' stroke-linejoin='miter'/%3E%3C/svg%3E");
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 8px 24px;
+}
+
+.seat-beacon {
+  filter: drop-shadow(0 0 10px rgb(249 231 201 / 0.95)) drop-shadow(0 0 22px rgb(189 214 234 / 0.8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .seat-ring,
+  .route-line,
+  .frame-orbit {
+    animation: none;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
