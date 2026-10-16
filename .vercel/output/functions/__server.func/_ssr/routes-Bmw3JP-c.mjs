@@ -2,503 +2,957 @@ import { i as __toESM } from "../_runtime.mjs";
 import { K as require_react, b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { a as ArrowLeft, i as QrCode, r as Search, t as X } from "../_libs/lucide-react.mjs";
 import { t as require_lib } from "../_libs/qrcode.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BL5-yf08.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-Bmw3JP-c.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var import_lib = require_lib();
 var eventCopy = {
-	kicker: "Tiệc cưới",
+	kicker: "Wedding",
 	title: "Sơ đồ chỗ ngồi",
-	thanks: "Cảm ơn quý khách đã đến chung vui.",
-	hint: "Nhập tên trên thiệp mời để xem bàn của mình trong sảnh.",
-	sampleNote: "Đang dùng danh sách mẫu. Gửi mình danh sách khách và số bàn để thay bằng tên thật."
+	thanks: "Cảm ơn quý khách đã đến chung vui",
+	hint: "Nhập tên trên thiệp mời để xem bàn của mình trong sảnh."
 };
 var guests = [
 	[
-		"Nguyễn Thị Hồng Nhung",
+		"Cục Mây",
 		1,
-		"Nhà gái"
+		"BrandBAE"
 	],
 	[
-		"Trần Văn Minh",
+		"Dũng",
 		1,
-		"Nhà gái"
+		"BrandBAE"
 	],
 	[
-		"Lê Thị Thu Hà",
+		"Bé Mint",
 		1,
-		"Nhà gái"
+		"BrandBAE"
 	],
 	[
-		"Phạm Đức Anh",
+		"Nhân Nger",
+		1,
+		"BrandBAE"
+	],
+	[
+		"Bé Yến",
+		1,
+		"BrandBAE"
+	],
+	[
+		"Hoàng Hà",
+		1,
+		"BrandBAE"
+	],
+	[
+		"Bé Chan",
+		1,
+		"BrandBAE"
+	],
+	[
+		"Bé Suji",
+		1,
+		"BrandBAE"
+	],
+	[
+		"Bé Rint",
+		1,
+		"BrandBAE"
+	],
+	[
+		"Bé Thy",
+		1,
+		"BrandBAE"
+	],
+	[
+		"Bé Deno",
 		2,
-		"Nhà trai"
+		"BrandBAE"
 	],
 	[
-		"Hoàng Mai Linh",
+		"Huy",
 		2,
-		"Nhà trai"
+		"BrandBAE",
+		"Đi cùng khách"
 	],
 	[
-		"Vũ Ngọc Bích",
+		"Bé Hin Le",
 		2,
-		"Nhà trai"
+		"BrandBAE"
 	],
 	[
-		"Đặng Quốc Huy",
+		"Bé Hân",
+		2,
+		"BrandBAE"
+	],
+	[
+		"Pon",
+		2,
+		"BrandBAE"
+	],
+	[
+		"Mook",
+		2,
+		"BrandBAE"
+	],
+	[
+		"Ngọc Ngân",
+		2,
+		"BrandBAE"
+	],
+	[
+		"Tú Quỳnh",
+		2,
+		"BrandBAE",
+		"Học viên"
+	],
+	[
+		"Thiện Phúc",
+		2,
+		"BrandBAE",
+		"Học viên"
+	],
+	[
+		"Chị Nga Là Trà",
 		3,
-		"Họ hàng"
+		"Client"
 	],
 	[
-		"Bùi Thanh Tâm",
+		"Anh Công",
 		3,
-		"Họ hàng"
+		"Client"
 	],
 	[
-		"Ngô Thị Lan Anh",
+		"Chị Quyên Thơmore",
 		3,
-		"Bạn bè"
+		"Client"
 	],
 	[
-		"Lý Gia Hân",
+		"Trình Solaz",
+		3,
+		"Client"
+	],
+	[
+		"Dũng Meetup",
+		3,
+		"Client",
+		"Đi cùng khách"
+	],
+	[
+		"Bé Quỳnh",
+		3,
+		"Client"
+	],
+	[
+		"Hải",
+		3,
+		"Client"
+	],
+	[
+		"Trâm Anh",
+		3,
+		"Client"
+	],
+	[
+		"Thuận",
+		3,
+		"Client"
+	],
+	[
+		"Bảo Nhân",
 		4,
-		"Bạn bè"
+		"Người thương xa"
 	],
 	[
-		"Đỗ Minh Khoa",
+		"Anh Hùng",
 		4,
-		"Bạn bè"
+		"Người thương xa"
 	],
 	[
-		"Trịnh Thu Trang",
+		"Chị Thuý",
 		4,
-		"Đồng nghiệp"
+		"Người thương xa"
 	],
 	[
-		"Phan Hải Đăng",
+		"Bé Nghĩa Do Media",
+		4,
+		"Người thương xa"
+	],
+	[
+		"Anh Sang",
+		4,
+		"Người thương xa"
+	],
+	[
+		"Tịnh Minh",
+		4,
+		"Người thương xa"
+	],
+	[
+		"Chú Mon",
+		4,
+		"Người thương xa"
+	],
+	[
+		"Cô Moy",
+		4,
+		"Người thương xa"
+	],
+	[
+		"Cô Bích",
+		4,
+		"Người thương xa"
+	],
+	[
+		"Chị Tú",
+		4,
+		"Người thương xa"
+	],
+	[
+		"Anh Việt",
 		5,
-		"Đồng nghiệp"
+		"Cyclo",
+		"Supervisor"
 	],
 	[
-		"Võ Thị Kim Ngân",
+		"Chị Thảo Tranh",
 		5,
-		"Đồng nghiệp"
+		"Cyclo",
+		"Producer"
 	],
 	[
-		"Dương Anh Tú",
+		"Cao Hoai Nhan",
 		5,
-		"Bạn bè"
+		"Cyclo",
+		"Comp"
 	],
 	[
-		"Cao Nhật Nam",
+		"Phương Thảo",
+		5,
+		"Cyclo",
+		"Comp"
+	],
+	[
+		"Quốc Bảo",
+		5,
+		"Cyclo",
+		"Producer"
+	],
+	[
+		"Triệu",
+		5,
+		"Cyclo",
+		"Đi cùng khách"
+	],
+	[
+		"Hoàng Khôi",
+		5,
+		"Cyclo"
+	],
+	[
+		"Tố Tâm",
+		5,
+		"Cyclo"
+	],
+	[
+		"Thành Nhơn",
+		5,
+		"Cyclo",
+		"Comp"
+	],
+	[
+		"Bé Liên",
 		6,
-		"Bạn bè"
+		"VTC Academy"
 	],
 	[
-		"Mai Phương Thảo",
+		"Anh Đông Phùng",
 		6,
-		"Bạn bè"
+		"VTC Academy",
+		"Anh Tiểu Hổ"
 	],
 	[
-		"Hồ Quang Vinh",
+		"Võ Nghĩa",
 		6,
-		"Họ hàng"
+		"VTC Academy"
 	],
 	[
-		"Tạ Hồng Đào",
+		"Tiểu Hổ",
+		6,
+		"VTC Academy",
+		"Đi cùng khách"
+	],
+	[
+		"Quân Quần",
+		6,
+		"VTC Academy"
+	],
+	[
+		"Tuấn Hoàng",
+		6,
+		"VTC Academy"
+	],
+	[
+		"Quốc Lâm",
+		6,
+		"VTC Academy"
+	],
+	[
+		"Tế Nguyên",
+		6,
+		"VTC Academy"
+	],
+	[
+		"Anh Toàn",
 		7,
-		"Họ hàng"
+		"Time Universal"
 	],
 	[
-		"Lương Thế Vinh",
+		"Anh Tô",
 		7,
-		"Nhà trai"
+		"Time Universal",
+		"Đi cùng khách"
 	],
 	[
-		"Chu Thị Mỹ Duyên",
+		"Bé Nhung",
 		7,
-		"Nhà trai"
+		"Time Universal"
 	],
 	[
-		"Kiều Bảo Châu",
+		"Bé Hà",
+		7,
+		"Time Universal"
+	],
+	[
+		"Đạt",
+		7,
+		"Time Universal"
+	],
+	[
+		"Chill Phúc",
+		7,
+		"Time Universal"
+	],
+	[
+		"Như",
+		7,
+		"Time Universal"
+	],
+	[
+		"Ý",
+		7,
+		"Time Universal"
+	],
+	[
+		"Si",
+		7,
+		"Time Universal"
+	],
+	[
+		"Anh Dũng",
 		8,
-		"Nhà gái"
+		"Mentor Mentee"
 	],
 	[
-		"Ông Văn Khôi",
+		"Chị Tú Anh",
 		8,
-		"Họ hàng"
+		"Mentor Mentee"
 	],
 	[
-		"La Thị Thanh Hương",
+		"Chị Thảo",
 		8,
-		"Họ hàng"
+		"Mentor Mentee"
 	],
 	[
-		"Quách Tuấn Kiệt",
+		"Chị Kim Tuyến",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"Chị Kathy",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"Bé Trân Âu",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"Phước Jason",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"Anh Phúc",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"Chị Cầm",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"Chị Trà Ly",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"Trúc",
+		8,
+		"Mentor Mentee"
+	],
+	[
+		"A Thanh Dũng",
 		9,
-		"Bạn bè"
+		"Cyclo",
+		"Comp"
 	],
 	[
-		"Đinh Ngọc Ánh",
+		"Trọng Thịnh",
 		9,
-		"Bạn bè"
+		"Cyclo",
+		"Comp"
 	],
 	[
-		"Tô Hoài Nam",
+		"Cao Quang",
 		9,
-		"Đồng nghiệp"
+		"Cyclo",
+		"Comp"
 	],
 	[
-		"Uông Thị Bích Ngọc",
+		"A Kim Khôi",
+		9,
+		"Cyclo",
+		"Comp"
+	],
+	[
+		"A Long Vân",
+		9,
+		"Cyclo",
+		"Comp"
+	],
+	[
+		"A Khoa Bùi",
+		9,
+		"Cyclo",
+		"Concept"
+	],
+	[
+		"A Duy Thành",
+		9,
+		"Cyclo",
+		"Anim"
+	],
+	[
+		"A Huy Bằng",
+		9,
+		"Cyclo",
+		"Model"
+	],
+	[
+		"Lâm",
+		9,
+		"Cyclo",
+		"IT"
+	],
+	[
+		"Hoàng Phúc",
+		9,
+		"Cyclo",
+		"FX"
+	],
+	[
+		"Han vo a Bui",
 		10,
-		"Đồng nghiệp"
+		"Bạn chú rể"
 	],
 	[
-		"Lâm Gia Bảo",
+		"Hiếu",
 		10,
-		"Bạn bè"
+		"Bạn chú rể",
+		"Đi cùng khách"
 	],
 	[
-		"Hà Thuỳ Dương",
+		"Minh Ngọc",
 		10,
-		"Bạn bè"
+		"Bạn chú rể"
 	],
 	[
-		"Trương Minh Triết",
+		"Mai An",
+		10,
+		"Bạn chú rể"
+	],
+	[
+		"Ung Thanh",
+		10,
+		"Bạn chú rể"
+	],
+	[
+		"Châu Phú",
+		10,
+		"Bạn chú rể"
+	],
+	[
+		"Anh Hà Hiền",
 		11,
-		"Bạn bè"
+		"Client"
 	],
 	[
-		"Vương Cẩm Tú",
+		"Tuyết",
 		11,
-		"Bạn bè"
+		"Client"
 	],
 	[
-		"Đoàn Phúc An",
+		"Phát",
 		11,
-		"Họ hàng"
+		"Client"
 	],
 	[
-		"Nguyễn Văn An",
+		"Thư",
+		11,
+		"Client"
+	],
+	[
+		"Chị Tiên Vú",
+		11,
+		"Client"
+	],
+	[
+		"Bông Trần",
+		11,
+		"Client",
+		"Đi cùng khách"
+	],
+	[
+		"Anh Hiếu",
+		11,
+		"Client"
+	],
+	[
+		"Chị Thảo",
+		11,
+		"Client"
+	],
+	[
+		"Anh Phi",
+		11,
+		"Client"
+	],
+	[
+		"Chị Jes",
+		11,
+		"Client"
+	],
+	[
+		"Hảo hiệu trưởng cute",
 		12,
-		"Bạn bè"
+		"GTC"
 	],
 	[
-		"Lê Hoàng Yến",
+		"Anh Kỳ",
 		12,
-		"Bạn bè"
+		"GTC"
 	],
 	[
-		"Phùng Đức Trọng",
+		"Minh Hương baby",
 		12,
-		"Đồng nghiệp"
+		"GTC"
 	],
 	[
-		"Thái Hà My",
+		"Minh Anh",
+		12,
+		"GTC",
+		"Dung"
+	],
+	[
+		"Bé Hiếu Thảo",
+		12,
+		"GTC"
+	],
+	[
+		"Bé Gia Hân",
+		12,
+		"GTC"
+	],
+	[
+		"Anh Huy",
+		12,
+		"GTC"
+	],
+	[
+		"Chú Khải",
+		12,
+		"GTC"
+	],
+	[
+		"Chị Jovi",
+		12,
+		"GTC"
+	],
+	[
+		"Anh Nhân Phạm",
+		12,
+		"GTC"
+	],
+	[
+		"Phước Vũng Tàu",
 		13,
-		"Đồng nghiệp"
+		"Huflit"
 	],
 	[
-		"Mạc Đình Phong",
+		"Tủn lớn",
 		13,
-		"Bạn bè"
+		"Huflit"
 	],
 	[
-		"Huỳnh Thị Kiều Oanh",
+		"Ngọc Phượng",
 		13,
-		"Bạn bè"
+		"Huflit"
 	],
 	[
-		"Tống Ngọc Diệp",
+		"Tủn nhỏ",
+		13,
+		"Huflit"
+	],
+	[
+		"Sonic",
+		13,
+		"Huflit",
+		"Đi cùng khách"
+	],
+	[
+		"Cá",
+		13,
+		"Huflit"
+	],
+	[
+		"A Danh",
+		13,
+		"Huflit"
+	],
+	[
+		"Chị đẹp",
+		13,
+		"Huflit"
+	],
+	[
+		"Bé Hạnh",
+		13,
+		"Huflit"
+	],
+	[
+		"Chú SoPhong",
 		14,
-		"Nhà gái"
+		"Bluer"
 	],
 	[
-		"Bạch Công Danh",
+		"Chị Thuý",
 		14,
-		"Nhà gái"
+		"Bluer"
 	],
 	[
-		"Âu Dương Thiên Kim",
+		"Duy",
 		14,
-		"Họ hàng"
+		"Bluer",
+		"Edit"
 	],
 	[
-		"Giáp Thị Hồng",
+		"Hiệp nhỏ",
+		14,
+		"Bluer"
+	],
+	[
+		"Yến",
+		14,
+		"Bluer"
+	],
+	[
+		"Hưng nhỏ",
+		14,
+		"Bluer"
+	],
+	[
+		"Chị Gấu",
+		14,
+		"Bluer",
+		"Đi cùng khách"
+	],
+	[
+		"Kan Bùi",
+		14,
+		"Bluer"
+	],
+	[
+		"A Phương",
+		14,
+		"Bluer"
+	],
+	[
+		"Hải Nhi",
 		15,
-		"Họ hàng"
+		"Cyclo"
 	],
 	[
-		"Từ Minh Quân",
+		"Yến Nhi",
 		15,
-		"Bạn bè"
+		"Cyclo"
 	],
 	[
-		"Nghiêm Thuỳ Chi",
+		"Thuận Mút",
 		15,
-		"Bạn bè"
+		"Cyclo"
 	],
 	[
-		"Lục Văn Hùng",
+		"Đỗ Tình",
+		15,
+		"Cyclo"
+	],
+	[
+		"Quốc Huy",
+		15,
+		"Cyclo"
+	],
+	[
+		"Minh Luân",
+		15,
+		"Cyclo"
+	],
+	[
+		"Thị Hào",
+		15,
+		"Cyclo"
+	],
+	[
+		"Minh Tiếng",
+		15,
+		"Cyclo"
+	],
+	[
+		"Văn Minh",
+		15,
+		"Cyclo"
+	],
+	[
+		"Thanh Thảo",
+		15,
+		"Cyclo"
+	],
+	[
+		"Mai Phương",
 		16,
-		"Bạn bè"
+		"Cyclo",
+		"Cor"
 	],
 	[
-		"Khương Thanh Hà",
+		"Tomo",
 		16,
-		"Đồng nghiệp"
+		"Cyclo",
+		"Cor"
 	],
 	[
-		"Tiêu Bảo Trâm",
+		"Như Bình",
 		16,
-		"Đồng nghiệp"
+		"Cyclo",
+		"Anim"
 	],
 	[
-		"Nhâm Đức Huy",
-		17,
-		"Nhà trai"
+		"Minh Anh",
+		16,
+		"Cyclo",
+		"Cor"
 	],
 	[
-		"Trịnh Gia Linh",
-		17,
-		"Nhà trai"
+		"Chí Linh",
+		16,
+		"Cyclo",
+		"Concept"
 	],
 	[
-		"Phan Thị Mỹ Linh",
-		17,
-		"Họ hàng"
+		"Anh Sơn",
+		16,
+		"Cyclo",
+		"Render"
 	],
 	[
-		"Đào Nhật Minh",
+		"Minh Trang",
+		16,
+		"Cyclo",
+		"Cor"
+	],
+	[
+		"Anh Vũ",
+		16,
+		"Cyclo",
+		"Supervisor"
+	],
+	[
+		"Hoàng Khôi",
+		16,
+		"Cyclo",
+		"PM"
+	],
+	[
+		"Quang Phúc",
+		16,
+		"Cyclo",
+		"Concept"
+	],
+	[
+		"Bố mẹ chú rể",
 		18,
-		"Họ hàng"
+		"Gia đình chú rể"
 	],
 	[
-		"Văn Thị Ngọc",
+		"Vợ chồng bác Sanh",
 		18,
-		"Bạn bè"
+		"Gia đình chú rể",
+		"Tư"
 	],
 	[
-		"Cung Thành Đạt",
+		"Bác Lan",
 		18,
-		"Bạn bè"
+		"Gia đình chú rể"
 	],
 	[
-		"Lại Phương Anh",
-		19,
-		"Bạn bè"
+		"Bác Phúc",
+		18,
+		"Gia đình chú rể"
 	],
 	[
-		"Sử Đức Thắng",
-		19,
-		"Đồng nghiệp"
+		"Bác Bình",
+		18,
+		"Gia đình chú rể"
 	],
 	[
-		"Kha Thị Thuý",
-		19,
-		"Đồng nghiệp"
+		"Vợ chồng bác Tiến",
+		18,
+		"Gia đình chú rể"
 	],
 	[
-		"Biện Hoàng Long",
-		20,
-		"Đồng nghiệp"
+		"Chị Linh",
+		18,
+		"Gia đình chú rể",
+		"Con bác Bình"
 	],
 	[
-		"Đàm Thuỳ Trang",
-		20,
-		"Bạn bè"
-	],
-	[
-		"Hứa Minh Tuấn",
-		20,
-		"Bạn bè"
-	],
-	[
-		"Lữ Gia Khiêm",
+		"Bé Vân",
 		21,
-		"Bạn bè"
+		"Gia đình chú rể"
 	],
 	[
-		"Mẫn Thị Hoa",
+		"Anh Luân",
 		21,
-		"Họ hàng"
+		"Gia đình chú rể"
 	],
 	[
-		"Ngọ Văn Tài",
+		"Anh Vinh",
 		21,
-		"Họ hàng"
+		"Gia đình chú rể",
+		"Đi cùng khách"
 	],
 	[
-		"Ông Thị Yến",
-		22,
-		"Nhà gái"
+		"Chị Vy",
+		21,
+		"Gia đình chú rể",
+		"Đi cùng khách"
 	],
 	[
-		"Phí Minh Đức",
-		22,
-		"Nhà gái"
+		"Vợ chồng chú Hội",
+		21,
+		"Gia đình chú rể",
+		"Đi cùng khách"
 	],
 	[
-		"Quản Thuỳ Linh",
-		22,
-		"Bạn bè"
+		"Vợ chồng anh Việt",
+		21,
+		"Gia đình chú rể",
+		"Đi cùng khách"
 	],
 	[
-		"Sầm Quốc Bảo",
-		23,
-		"Bạn bè"
-	],
-	[
-		"Tăng Mỹ Hạnh",
-		23,
-		"Bạn bè"
-	],
-	[
-		"Ung Hoàng Phúc",
-		23,
-		"Đồng nghiệp"
-	],
-	[
-		"Viên Thị Lan",
-		24,
-		"Đồng nghiệp"
-	],
-	[
-		"Xử Đức Anh",
-		24,
-		"Bạn bè"
-	],
-	[
-		"Yên Ngọc Hà",
-		24,
-		"Bạn bè"
-	],
-	[
-		"Trần Khánh Linh",
-		25,
-		"Bạn bè"
-	],
-	[
-		"Nguyễn Nhật Trường",
-		25,
-		"Bạn bè"
-	],
-	[
-		"Lê Bảo Ngọc",
-		25,
-		"Họ hàng"
-	],
-	[
-		"Phạm Quỳnh Chi",
-		26,
-		"Họ hàng"
-	],
-	[
-		"Hoàng Anh Dũng",
-		26,
-		"Nhà trai"
-	],
-	[
-		"Vũ Thuỳ Dương",
-		26,
-		"Nhà trai"
-	],
-	[
-		"Đặng Mỹ Anh",
-		27,
-		"Nhà gái"
-	],
-	[
-		"Bùi Đức Thịnh",
-		27,
-		"Nhà gái"
-	],
-	[
-		"Ngô Khánh Vy",
-		27,
-		"Bạn bè"
-	],
-	[
-		"Lý Thành Nam",
+		"Hợp",
 		28,
-		"Bạn bè"
+		"ĐN của mẹ",
+		"Đi cùng khách"
 	],
 	[
-		"Đỗ Hà My",
+		"Chị Trân",
 		28,
-		"Đồng nghiệp"
+		"ĐN của mẹ",
+		"Đi cùng khách"
 	],
 	[
-		"Mai Xuân Trường",
+		"Huy ăn chay",
 		28,
-		"Đồng nghiệp"
+		"ĐN của mẹ",
+		"Đi cùng khách"
 	],
 	[
-		"Hồ Ngọc Trâm",
-		29,
-		"Đồng nghiệp"
+		"Linh",
+		28,
+		"ĐN của mẹ",
+		"Đi cùng khách"
 	],
 	[
-		"Tạ Minh Hiếu",
-		29,
-		"Bạn bè"
+		"Thu An",
+		28,
+		"ĐN của mẹ",
+		"Đi cùng khách"
 	],
 	[
-		"Lương Thuỳ Tiên",
-		29,
-		"Bạn bè"
+		"Ngọc",
+		28,
+		"ĐN của mẹ",
+		"Đi cùng khách"
 	],
 	[
-		"Kiều Anh Thư",
-		30,
-		"Bạn bè"
-	],
-	[
-		"Chu Đức Mạnh",
-		30,
-		"Họ hàng"
-	],
-	[
-		"La Phương Nhi",
-		30,
-		"Họ hàng"
-	],
-	[
-		"Quách Gia Huy",
-		31,
-		"Họ hàng"
-	],
-	[
-		"Đinh Thanh Sơn",
-		31,
-		"Bạn bè"
-	],
-	[
-		"Tô Thị Hạnh",
-		31,
-		"Bạn bè"
-	],
-	[
-		"Hà Minh Châu",
+		"Thư",
 		32,
-		"Bạn bè"
+		"ĐN của mẹ"
 	],
 	[
-		"Trương Bảo Anh",
+		"Vy",
 		32,
-		"Đồng nghiệp"
+		"ĐN của mẹ"
 	],
 	[
-		"Vương Quốc Việt",
+		"Thanh Thủy",
 		32,
-		"Đồng nghiệp"
+		"ĐN của mẹ",
+		"Đi cùng khách"
+	],
+	[
+		"Tuyết",
+		32,
+		"ĐN của mẹ"
+	],
+	[
+		"Hằng",
+		32,
+		"ĐN của mẹ"
+	],
+	[
+		"Sếp Trang",
+		32,
+		"ĐN của mẹ"
+	],
+	[
+		"Phát",
+		32,
+		"ĐN của mẹ"
+	],
+	[
+		"Chị Nhàn",
+		32,
+		"ĐN của mẹ",
+		"Chủ phòng trọ của mẹ"
 	]
-].map(([name, table, side], index) => ({
+].map(([name, table, side, note], index) => ({
 	id: `g${index + 1}`,
 	name,
 	table,
-	side
+	side,
+	note
 }));
 function fold(value) {
 	return value.normalize("NFD").replace(/\p{M}/gu, "").replace(/đ/g, "d").replace(/Đ/g, "d").toLowerCase().replace(/\s+/g, " ").trim();
@@ -507,7 +961,7 @@ function searchGuests(guests, query) {
 	const needle = fold(query);
 	if (needle.length < 1) return [];
 	return guests.map((guest) => {
-		const name = fold(guest.name);
+		const name = fold(`${guest.name} ${guest.note ?? ""}`);
 		const compact = name.replace(/ /g, "");
 		const q = needle.replace(/ /g, "");
 		let score = 0;
@@ -523,7 +977,7 @@ function searchGuests(guests, query) {
 			guest,
 			score
 		};
-	}).filter((item) => item.score > 0).sort((a, b) => b.score - a.score || a.guest.name.localeCompare(b.guest.name, "vi")).slice(0, 8).map((item) => item.guest);
+	}).filter((item) => item.score > 0).sort((a, b) => b.score - a.score || a.guest.name.localeCompare(b.guest.name, "vi")).slice(0, 12).map((item) => item.guest);
 }
 function inFinder(x, y, size) {
 	return [
@@ -3019,11 +3473,13 @@ var data = {
 var tables = data.tables;
 var chairs = data.chairs;
 var FULL = {
-	x: 180,
-	y: 330,
-	w: 1720,
-	h: 1420
+	x: 160,
+	y: 280,
+	w: 1760,
+	h: 1640
 };
+var CANOPY = "M 211 530 C 250 430 340 372 430 376 C 540 382 640 430 760 456 C 900 478 1040 448 1180 404 C 1320 358 1480 324 1600 328 C 1700 332 1780 390 1836 500";
+var CANOPY_INNER = "M 211 518 C 250 418 340 360 430 364 C 540 370 640 418 760 444 C 900 466 1040 436 1180 392 C 1320 346 1480 312 1600 316 C 1700 320 1780 378 1836 488";
 function focusView(cx, cy) {
 	const w = 640;
 	const h = 760;
@@ -3038,186 +3494,352 @@ function FloorPlan({ activeTable, focus, onToggleFocus }) {
 	const active = tables.find((table) => table.id === activeTable) ?? null;
 	const view = active && focus ? focusView(active.x, active.y) : FULL;
 	const dim = activeTable !== null;
+	const pinX = active ? (active.x - view.x) / view.w * 100 : 0;
+	const pinY = active ? (active.y - view.y) / view.h * 100 : 0;
+	const pinAbove = pinY > 22;
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 		className: "relative h-full min-h-0 w-full",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
-			viewBox: `${view.x} ${view.y} ${view.w} ${view.h}`,
-			className: "h-full w-full",
-			role: "img",
-			"aria-label": active ? `Sơ đồ sảnh, bàn ${active.id} được đánh dấu` : "Sơ đồ sảnh tiệc, 32 bàn",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
-					d: "M211 530\n             C250 430 340 368 460 378\n             C560 386 640 430 760 456\n             C900 478 1040 450 1180 410\n             C1360 354 1560 318 1700 338\n             C1780 350 1824 420 1836 520\n             L1836 936\n             L1867 936\n             L1867 1552\n             L211 1552\n             Z",
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
-					d: "M211 530\n             C250 418 340 356 460 366\n             C560 374 640 418 760 444\n             C900 466 1040 438 1180 398\n             C1360 342 1560 306 1700 326\n             C1780 338 1824 408 1836 508",
-					className: "fill-none stroke-cream opacity-70",
-					strokeWidth: 1.5
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 630,
-					y: 528,
-					width: 46,
-					height: 58,
-					className: "fill-cream"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 996,
-					y: 528,
-					width: 46,
-					height: 58,
-					className: "fill-cream"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 1364,
-					y: 528,
-					width: 44,
-					height: 58,
-					className: "fill-cream"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 822,
-					y: 612,
-					width: 412,
-					height: 198,
-					className: "fill-cream"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
-					x: 1028,
-					y: 724,
-					textAnchor: "middle",
-					className: "fill-wine font-display",
-					style: {
-						fontSize: 42,
-						letterSpacing: "0.18em"
-					},
-					children: "SÂN KHẤU"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 990,
-					y: 810,
-					width: 72,
-					height: 560,
-					className: "fill-cream"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 386,
-					y: 1552,
-					width: 366,
-					height: 120,
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 752,
-					y: 1552,
-					width: 296,
-					height: 120,
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: 1360,
-					y: 1552,
-					width: 507,
-					height: 156,
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
-					x: 1613,
-					y: 1640,
-					textAnchor: "middle",
-					className: "fill-cream font-sans",
-					style: {
-						fontSize: 26,
-						letterSpacing: "0.22em"
-					},
-					children: "STAFF ONLY"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
-					d: "M1128 1552 A 58 58 0 0 1 1244 1552",
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
-					d: "M1244 1552 A 58 58 0 0 1 1360 1552",
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
-					d: "M1648 1552 A 52 52 0 0 1 1752 1552",
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
-					d: "M1752 1552 A 52 52 0 0 1 1856 1552",
-					className: "fill-none stroke-cream",
-					strokeWidth: 3
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
-					x: 1244,
-					y: 1616,
-					textAnchor: "middle",
-					className: "fill-cream font-sans",
-					style: {
-						fontSize: 22,
-						letterSpacing: "0.2em"
-					},
-					children: "LỐI VÀO"
-				}),
-				tables.map((table) => {
-					const on = table.id === activeTable;
-					const seats = chairs.filter((chair) => chair.t === table.id);
-					return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("g", {
-						opacity: !dim || on ? 1 : .42,
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
+				viewBox: `${view.x} ${view.y} ${view.w} ${view.h}`,
+				className: "h-full w-full",
+				role: "img",
+				"aria-label": active ? `Sơ đồ sảnh, bàn ${active.id} được đánh dấu` : "Sơ đồ sảnh tiệc, 32 bàn",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: `${CANOPY} L 1836 930 L 1867 930 L 1867 1552 L 211 1552 Z`,
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.4,
+						strokeLinejoin: "round"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: CANOPY_INNER,
+						className: "fill-none stroke-cream opacity-55",
+						strokeWidth: 1.3,
+						strokeLinejoin: "round"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 630,
+						y: 540,
+						width: 46,
+						height: 52,
+						className: "fill-cream"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 996,
+						y: 540,
+						width: 48,
+						height: 52,
+						className: "fill-cream"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 1363,
+						y: 540,
+						width: 46,
+						height: 52,
+						className: "fill-cream"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 822,
+						y: 592,
+						width: 412,
+						height: 233,
+						className: "fill-cream"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+						x: 1028,
+						y: 716,
+						textAnchor: "middle",
+						className: "fill-wine font-display",
+						style: {
+							fontSize: 34,
+							letterSpacing: "0.28em"
+						},
+						children: "SÂN KHẤU"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 990,
+						y: 825,
+						width: 72,
+						height: 473,
+						className: "fill-cream"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 386,
+						y: 1552,
+						width: 369,
+						height: 116,
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.2
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 755,
+						y: 1552,
+						width: 301,
+						height: 116,
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.2
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: 1360,
+						y: 1552,
+						width: 507,
+						height: 152,
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.2
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+						x: 1614,
+						y: 1636,
+						textAnchor: "middle",
+						className: "fill-cream font-sans",
+						style: {
+							fontSize: 20,
+							letterSpacing: "0.28em"
+						},
+						children: "STAFF ONLY"
+					}),
+					active && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: `M 1204 1508 C 1204 ${(1508 + active.y) / 2}, ${active.x} ${(1508 + active.y) / 2}, ${active.x} ${active.y + 70}`,
+						className: "route-line fill-none stroke-cream",
+						strokeWidth: 6,
+						strokeLinecap: "round"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: "M1128 1552 A 58 58 0 0 1 1244 1552",
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.2
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: "M1244 1552 A 58 58 0 0 1 1360 1552",
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.2
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: "M1648 1552 A 52 52 0 0 1 1752 1552",
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.2
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: "M1752 1552 A 52 52 0 0 1 1856 1552",
+						className: "fill-none stroke-cream",
+						strokeWidth: 2.2
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+						x: 1204,
+						y: 1610,
+						textAnchor: "middle",
+						className: "fill-cream font-sans",
+						style: {
+							fontSize: 16,
+							letterSpacing: "0.32em"
+						},
+						children: "LỐI VÀO"
+					}),
+					(!active || !focus) && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("g", {
+						className: "fill-cream font-sans",
+						style: {
+							fontSize: 18,
+							letterSpacing: "0.04em"
+						},
 						children: [
-							seats.map((seat) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-								x: seat.x,
-								y: seat.y,
-								width: seat.w,
-								height: seat.h,
-								rx: 4,
-								className: on ? "fill-paper stroke-cream" : "fill-sky",
-								strokeWidth: on ? 2 : 0
-							}, `${seat.x}-${seat.y}`)),
-							on && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
-								cx: table.x,
-								cy: table.y,
-								r: 86,
-								className: "seat-ring fill-none stroke-cream",
-								strokeWidth: 7
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
-								cx: table.x,
-								cy: table.y,
-								r: 34,
-								className: on ? "fill-cream" : "fill-paper"
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 250,
+								y: 1768,
+								children: "1–2  BrandBAE"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
-								x: table.x,
-								y: table.y + 2,
-								textAnchor: "middle",
-								dominantBaseline: "middle",
-								className: "fill-wine font-display",
-								style: {
-									fontSize: on ? 36 : 30,
-									fontWeight: 600
-								},
-								children: table.id
+								x: 250,
+								y: 1800,
+								children: "3 · 11  Client"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 250,
+								y: 1832,
+								children: "4  Người thương xa"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 250,
+								y: 1864,
+								children: "6  VTC Academy"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 820,
+								y: 1768,
+								children: "5 · 9 · 15 · 16  Cyclo"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 820,
+								y: 1800,
+								children: "7  Time Universal"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 820,
+								y: 1832,
+								children: "8  Mentor Mentee"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 820,
+								y: 1864,
+								children: "10  Bạn chú rể"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 1380,
+								y: 1768,
+								children: "12  GTC"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 1380,
+								y: 1800,
+								children: "13  Huflit · 14  Bluer"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 1380,
+								y: 1832,
+								children: "18 · 21  Gia đình chú rể"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+								x: 1380,
+								y: 1864,
+								children: "28 · 32  ĐN của mẹ"
 							})
 						]
-					}, table.id);
+					}),
+					tables.map((table) => {
+						const on = table.id === activeTable;
+						const seats = chairs.filter((chair) => chair.t === table.id);
+						return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("g", {
+							opacity: !dim || on ? 1 : .22,
+							children: [
+								seats.map((seat) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+									x: seat.x,
+									y: seat.y,
+									width: seat.w,
+									height: seat.h,
+									rx: 4,
+									className: on ? "fill-paper stroke-sky" : "fill-sky",
+									strokeWidth: on ? 3 : 0
+								}, `${seat.x}-${seat.y}`)),
+								on && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("g", {
+									className: "seat-beacon",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+											cx: table.x,
+											cy: table.y,
+											r: 118,
+											className: "fill-sky/35"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+											cx: table.x,
+											cy: table.y,
+											r: 96,
+											className: "seat-ring fill-none stroke-cream",
+											strokeWidth: 8
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+											cx: table.x,
+											cy: table.y,
+											r: 78,
+											className: "seat-ring fill-none stroke-sky",
+											strokeWidth: 4
+										})
+									]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+									cx: table.x,
+									cy: table.y,
+									r: on ? 40 : 34,
+									className: on ? "fill-cream" : "fill-paper"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+									x: table.x,
+									y: table.y + 2,
+									textAnchor: "middle",
+									dominantBaseline: "middle",
+									className: "fill-wine font-display",
+									style: {
+										fontSize: on ? 36 : 30,
+										fontWeight: 600
+									},
+									children: table.id
+								})
+							]
+						}, table.id);
+					})
+				]
+			}),
+			active && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "seat-beacon pointer-events-none absolute z-10",
+				style: {
+					left: `${pinX}%`,
+					top: `${pinY}%`,
+					transform: pinAbove ? "translate(-50%, calc(-100% - 4.8rem))" : "translate(-50%, 3rem)"
+				},
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "rounded-2xl bg-cream px-3 py-1.5 text-center text-wine",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "font-script text-xl leading-none",
+						children: "Bàn của bạn"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "font-mark text-4xl leading-none",
+						children: active.id
+					})]
 				})
-			]
-		}), onToggleFocus && active && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-			type: "button",
-			onClick: onToggleFocus,
-			className: "absolute right-3 bottom-3 rounded-full bg-cream px-4 py-2 text-sm font-medium text-wine",
-			children: focus ? "Xem toàn sảnh" : "Phóng bàn của bạn"
-		})]
+			}),
+			onToggleFocus && active && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+				type: "button",
+				onClick: onToggleFocus,
+				className: "absolute right-3 bottom-3 rounded-full bg-cream px-4 py-2 text-sm font-medium text-wine",
+				children: focus ? "Xem toàn sảnh" : "Phóng bàn của bạn"
+			})
+		]
+	});
+}
+function Corner({ className }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
+		className,
+		viewBox: "0 0 36 36",
+		"aria-hidden": true,
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				d: "M2 34 V2 H34",
+				className: "fill-none stroke-cream",
+				strokeWidth: "1.6"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				d: "M6 34 V6 H34",
+				className: "fill-none stroke-cream",
+				strokeWidth: "0.9"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				d: "M2 2 H9 V9 H2 Z",
+				className: "fill-none stroke-cream",
+				strokeWidth: "1.1"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+				d: "M9 5 H15 V12 H5 V9",
+				className: "fill-none stroke-cream",
+				strokeWidth: "1.1"
+			})
+		]
+	});
+}
+function OrnamentFrame() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "frame-glow pointer-events-none fixed inset-0 z-40 text-cream",
+		"aria-hidden": true,
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-1.5 border border-cream/80" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-3 border border-cream/40" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "meander-x absolute top-1.5 right-8 left-8 h-2" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "meander-x absolute right-8 bottom-1.5 left-8 h-2" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "meander-y absolute top-8 bottom-8 left-1.5 w-2" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "meander-y absolute top-8 right-1.5 bottom-8 w-2 -scale-x-100" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Corner, { className: "absolute top-0 left-0 size-7" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Corner, { className: "absolute top-0 right-0 size-7 -scale-x-100" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Corner, { className: "absolute bottom-0 left-0 size-7 -scale-y-100" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Corner, { className: "absolute right-0 bottom-0 size-7 -scale-100" })
+		]
 	});
 }
 function SeatingApp() {
@@ -3239,9 +3861,9 @@ function SeatingApp() {
 		setFocus(true);
 		setScreen("seat");
 	}
-	if (screen === "qr") return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("main", {
-		className: "min-h-screen bg-wine text-cream",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+	if (screen === "qr") return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
+		className: "min-h-screen px-4 py-8 text-cream",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(OrnamentFrame, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "mx-auto flex min-h-screen max-w-lg flex-col px-6 py-8",
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
@@ -3254,7 +3876,7 @@ function SeatingApp() {
 					}), "Quay lại"]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "mt-10 text-xs tracking-widest uppercase text-cream/80",
+					className: "mt-10 font-mark text-sm tracking-widest uppercase text-cream",
 					children: eventCopy.kicker
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
@@ -3277,77 +3899,85 @@ function SeatingApp() {
 					children: inviteUrl
 				})
 			]
-		})
-	});
-	if (screen === "seat" && guest) return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
-		className: "flex h-dvh flex-col bg-wine text-cream",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
-			className: "flex items-start gap-3 px-4 pt-4 pb-3 sm:px-6",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-					type: "button",
-					onClick: () => setScreen("find"),
-					className: "mt-1 inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-cream/30",
-					"aria-label": "Quay lại tìm tên",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowLeft, {
-						className: "size-5",
-						"aria-hidden": true
-					})
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "min-w-0 flex-1",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-xs tracking-widest uppercase text-cream/70",
-							children: guest.side
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-							className: "truncate font-display text-3xl leading-tight sm:text-4xl",
-							children: guest.name
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-							className: "mt-1 text-sm text-cream/80",
-							children: ["Cùng bàn: ", mates.map((mate) => mate.name).join(", ")]
-						})
-					]
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "shrink-0 rounded-card bg-cream px-4 py-2 text-center text-wine",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xs tracking-widest uppercase",
-						children: "Bàn"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "font-display text-4xl leading-none",
-						children: guest.table
-					})]
-				})
-			]
-		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
-			className: "relative min-h-0 flex-1",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FloorPlan, {
-				activeTable: guest.table,
-				focus,
-				onToggleFocus: () => setFocus((value) => !value)
-			})
 		})]
 	});
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("main", {
-		className: "min-h-screen bg-wine text-cream",
-		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "mx-auto grid min-h-screen max-w-6xl lg:grid-cols-[minmax(0,28rem)_minmax(0,1fr)]",
+	if (screen === "seat" && guest) return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
+		className: "flex h-dvh flex-col px-2 pt-4 pb-2 text-cream sm:px-3",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(OrnamentFrame, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
+				className: "grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 px-2 pt-1 pb-2 sm:gap-3 sm:px-4",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+						type: "button",
+						onClick: () => setScreen("find"),
+						className: "inline-flex size-10 shrink-0 items-center justify-center rounded-full border border-cream/30",
+						"aria-label": "Quay lại tìm tên",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowLeft, {
+							className: "size-5",
+							"aria-hidden": true
+						})
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "min-w-0",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "font-mark text-xs tracking-widest uppercase text-cream",
+								children: guest.side
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+								className: "line-clamp-2 font-display text-2xl leading-tight sm:text-3xl",
+								children: guest.name
+							}),
+							guest.note && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-xs text-cream/80",
+								children: guest.note
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+								className: "mt-0.5 line-clamp-2 text-xs leading-snug text-cream/75",
+								children: ["Cùng bàn: ", mates.map((mate) => mate.name).join(", ")]
+							})
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "min-w-16 shrink-0 rounded-2xl bg-cream px-3 py-1.5 text-center text-wine",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-xs tracking-widest uppercase",
+							children: "Bàn"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "font-mark text-4xl leading-none",
+							children: guest.table
+						})]
+					})
+				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+				className: "relative min-h-0 flex-1",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FloorPlan, {
+					activeTable: guest.table,
+					focus,
+					onToggleFocus: () => setFocus((value) => !value)
+				})
+			})
+		]
+	});
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("main", {
+		className: "min-h-screen px-3 py-3 text-cream sm:px-4",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(OrnamentFrame, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto grid min-h-[calc(100vh-1.5rem)] max-w-6xl lg:grid-cols-[minmax(0,28rem)_minmax(0,1fr)]",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-				className: "flex flex-col px-6 py-8 sm:px-10 sm:py-12",
+				className: "flex flex-col px-4 pt-7 pb-6 sm:px-8 sm:pt-8 sm:pb-10",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xs tracking-widest uppercase text-cream/75",
+						className: "font-mark text-sm tracking-widest uppercase text-cream",
 						children: eventCopy.kicker
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-						className: "mt-4 max-w-xs font-display text-6xl leading-[0.9] text-balance sm:text-7xl",
+						className: "mt-4 max-w-sm font-display text-5xl leading-none uppercase tracking-wide text-balance sm:text-6xl",
 						children: eventCopy.title
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "mt-6 max-w-sm font-display text-2xl leading-snug text-cream",
+						className: "mt-5 max-w-sm font-script text-4xl leading-tight text-cream",
 						children: eventCopy.thanks
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
@@ -3403,36 +4033,46 @@ function SeatingApp() {
 							children: results.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 								type: "button",
 								onClick: () => pick(item),
-								className: "flex w-full items-center justify-between gap-3 rounded-card bg-cream px-4 py-3 text-left text-wine",
+								className: "grid w-full grid-cols-[minmax(0,1fr)_4.25rem] items-center gap-3 rounded-2xl bg-cream px-4 py-2.5 text-left text-wine",
 								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "block text-base font-medium",
+									className: "block text-sm leading-snug font-medium",
 									children: item.name
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-									className: "block text-sm text-wine/70",
-									children: item.side
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "block text-xs leading-snug text-wine/70",
+									children: [item.side, item.note ? ` · ${item.note}` : ""]
 								})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-									className: "font-display text-2xl leading-none",
-									children: ["Bàn ", item.table]
+									className: "text-center",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "block text-xs tracking-widest uppercase",
+										children: "Bàn"
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-mark text-3xl leading-none",
+										children: item.table
+									})]
 								})]
 							}) }, item.id))
 						})]
 					}),
-					!query && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "mt-6 max-w-sm text-sm leading-relaxed text-cream/70",
-						children: eventCopy.sampleNote
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-						type: "button",
-						onClick: () => setScreen("qr"),
-						className: "mt-auto inline-flex items-center gap-2 pt-10 text-sm text-cream/80",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(QrCode, {
-							className: "size-4",
-							"aria-hidden": true
-						}), "Mã QR cho ban tổ chức"]
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "mt-auto flex flex-col gap-3 pt-10",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+							type: "button",
+							onClick: () => setScreen("qr"),
+							className: "inline-flex items-center gap-2 text-sm text-cream/80",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(QrCode, {
+								className: "size-4",
+								"aria-hidden": true
+							}), "Mã QR cho ban tổ chức"]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+							href: "/so-do-cho-ngoi.zip",
+							download: "so-do-cho-ngoi.zip",
+							className: "text-sm text-cream underline",
+							children: "Tải toàn bộ mã nguồn (.zip)"
+						})]
 					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("aside", {
-				className: "relative hidden min-h-screen border-l border-cream/15 lg:block",
+				className: "relative hidden min-h-screen p-4 lg:block",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FloorPlan, {
 					activeTable: null,
 					focus: false
@@ -3441,7 +4081,7 @@ function SeatingApp() {
 					children: "Sảnh · 32 bàn"
 				})]
 			})]
-		})
+		})]
 	});
 }
 function Home() {

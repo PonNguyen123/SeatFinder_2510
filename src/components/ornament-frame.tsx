@@ -11,16 +11,18 @@ function Corner({ className }: { className: string }) {
 
 export function OrnamentFrame() {
   return (
-    <div className="pointer-events-none fixed inset-0 z-40 text-cream" aria-hidden>
-      <div className="frame-orbit absolute inset-1.5" />
+    <div className="frame-glow pointer-events-none fixed inset-0 z-40 text-cream" aria-hidden>
+      <div className="absolute inset-1.5 border border-cream/80" />
+      <div className="absolute inset-3 border border-cream/40" />
       <div className="meander-x absolute top-1.5 right-8 left-8 h-2" />
       <div className="meander-x absolute right-8 bottom-1.5 left-8 h-2" />
       <div className="meander-y absolute top-8 bottom-8 left-1.5 w-2" />
       <div className="meander-y absolute top-8 right-1.5 bottom-8 w-2 -scale-x-100" />
-      <Corner className="corner-glow absolute top-0 left-0 size-7" />
-      <Corner className="corner-glow absolute top-0 right-0 size-7 -scale-x-100" />
-      <Corner className="corner-glow absolute bottom-0 left-0 size-7 -scale-y-100" />
-      <Corner className="corner-glow absolute right-0 bottom-0 size-7 -scale-100" />
+      <Corner className="absolute top-0 left-0 size-7" />
+      <Corner className="absolute top-0 right-0 size-7 -scale-x-100" />
+      <Corner className="absolute bottom-0 left-0 size-7 -scale-y-100" />
+      <Corner className="absolute right-0 bottom-0 size-7 -scale-100" />
     </div>
   )
 }
+

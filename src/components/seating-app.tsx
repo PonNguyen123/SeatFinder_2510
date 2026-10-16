@@ -97,8 +97,9 @@ export function SeatingApp() {
       <div className="mx-auto grid min-h-[calc(100vh-1.5rem)] max-w-6xl lg:grid-cols-[minmax(0,28rem)_minmax(0,1fr)]">
         <section className="flex flex-col px-4 pt-7 pb-6 sm:px-8 sm:pt-8 sm:pb-10">
           <p className="font-mark text-sm tracking-widest uppercase text-cream">{eventCopy.kicker}</p>
-          <h1 className="mt-4 max-w-sm font-display text-5xl leading-none uppercase tracking-wide text-balance sm:text-6xl">
-            {eventCopy.title}
+          <h1 className="mt-4 max-w-sm font-display text-5xl uppercase tracking-wide sm:text-6xl">
+            <span className="block leading-none">Sơ đồ</span>
+            <span className="mt-3 block leading-snug">chỗ ngồi</span>
           </h1>
           <p className="mt-5 max-w-sm font-script text-4xl leading-tight text-cream">{eventCopy.thanks}</p>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-cream/80">{eventCopy.hint}</p>
@@ -164,19 +165,14 @@ export function SeatingApp() {
             )}
           </div>
 
-          <div className="mt-auto flex flex-col gap-3 pt-10">
-            <button
-              type="button"
-              onClick={() => setScreen("qr")}
-              className="inline-flex items-center gap-2 text-sm text-cream/80"
-            >
-              <QrCode className="size-4" aria-hidden />
-              Mã QR cho ban tổ chức
-            </button>
-            <a href="/so-do-cho-ngoi.zip" download="so-do-cho-ngoi.zip" className="text-sm text-cream underline">
-              Tải toàn bộ mã nguồn (.zip)
-            </a>
-          </div>
+          <button
+            type="button"
+            onClick={() => setScreen("qr")}
+            className="mt-auto inline-flex items-center gap-2 pt-10 text-sm text-cream/80"
+          >
+            <QrCode className="size-4" aria-hidden />
+            Mã QR cho ban tổ chức
+          </button>
         </section>
 
         <aside className="relative hidden min-h-screen p-4 lg:block">
