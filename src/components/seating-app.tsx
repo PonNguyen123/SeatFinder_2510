@@ -60,13 +60,13 @@ export function SeatingApp() {
 
   if (screen === "seat" && guest) {
     return (
-      <main className="flex h-dvh flex-col px-2 pt-4 pb-2 text-cream sm:px-3">
+      <main className="flex h-dvh flex-col px-2 pt-5 pb-2 text-cream sm:px-3">
         <OrnamentFrame />
-        <header className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 px-2 pt-1 pb-2 sm:gap-3 sm:px-4">
+        <header className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 px-2 pt-5 pb-3 sm:px-4">
           <button
             type="button"
             onClick={() => setScreen("find")}
-            className="inline-flex size-10 shrink-0 items-center justify-center rounded-full border border-cream/30"
+            className="inline-flex size-11 shrink-0 items-center justify-center rounded-full bg-cream text-wine"
             aria-label="Quay lại tìm tên"
           >
             <ArrowLeft className="size-5" aria-hidden />
@@ -79,7 +79,7 @@ export function SeatingApp() {
               Cùng bàn: {mates.map((mate) => mate.name).join(", ")}
             </p>
           </div>
-          <div className="min-w-16 shrink-0 rounded-2xl bg-cream px-3 py-1.5 text-center text-wine">
+          <div className="min-w-16 shrink-0 rounded-full bg-cream px-3.5 py-2 text-center text-wine">
             <p className="text-xs tracking-widest uppercase">Bàn</p>
             <p className="font-mark text-4xl leading-none">{guest.table}</p>
           </div>

@@ -91,29 +91,12 @@ function floorSvg(activeId, focus) {
   const route = active
     ? `<path class="route-line" d="M 1204 1508 C 1204 ${(1508 + active.y) / 2}, ${active.x} ${(1508 + active.y) / 2}, ${active.x} ${active.y + 70}" fill="none" stroke="var(--cream)" stroke-width="6" stroke-linecap="round"/>`
     : ""
-  const legend =
-    !active || !focus
-      ? `<g fill="var(--cream)" font-family="var(--sans)" font-size="18">
-          <text x="250" y="1768">1–2  BrandBAE</text>
-          <text x="250" y="1800">3 · 11  Client</text>
-          <text x="250" y="1832">4  Người thương xa</text>
-          <text x="250" y="1864">6  VTC Academy</text>
-          <text x="820" y="1768">5 · 9 · 15 · 16  Cyclo</text>
-          <text x="820" y="1800">7  Time Universal</text>
-          <text x="820" y="1832">8  Mentor Mentee</text>
-          <text x="820" y="1864">10  Bạn chú rể</text>
-          <text x="1380" y="1768">12  GTC</text>
-          <text x="1380" y="1800">13  Huflit · 14  Bluer</text>
-          <text x="1380" y="1832">18 · 21  Gia đình chú rể</text>
-          <text x="1380" y="1864">28 · 32  ĐN của mẹ</text>
-        </g>`
-      : ""
   return `<svg viewBox="${view.x} ${view.y} ${view.w} ${view.h}" role="img" aria-label="${active ? `Sơ đồ sảnh, bàn ${active.id}` : "Sơ đồ sảnh tiệc, 32 bàn"}">
     <path d="${CANOPY} L 1836 930 L 1867 930 L 1867 1552 L 211 1552 Z" fill="none" stroke="var(--cream)" stroke-width="2.4" stroke-linejoin="round"/>
     <path d="${CANOPY_INNER}" fill="none" stroke="var(--cream)" stroke-opacity="0.55" stroke-width="1.3"/>
-    <rect x="630" y="540" width="46" height="52" fill="var(--cream)"/>
-    <rect x="996" y="540" width="48" height="52" fill="var(--cream)"/>
-    <rect x="1363" y="540" width="46" height="52" fill="var(--cream)"/>
+    <rect x="430" y="520" width="290" height="64" fill="var(--cream)"/>
+    <rect x="822" y="520" width="412" height="64" fill="var(--cream)"/>
+    <rect x="1336" y="520" width="290" height="64" fill="var(--cream)"/>
     <rect x="822" y="592" width="412" height="233" fill="var(--cream)"/>
     <text x="1028" y="716" text-anchor="middle" fill="var(--wine)" font-family="var(--display)" font-size="34" letter-spacing="10">SÂN KHẤU</text>
     <rect x="990" y="825" width="72" height="473" fill="var(--cream)"/>
@@ -127,7 +110,6 @@ function floorSvg(activeId, focus) {
     <path d="M1648 1552 A 52 52 0 0 1 1752 1552" fill="none" stroke="var(--cream)" stroke-width="2.2"/>
     <path d="M1752 1552 A 52 52 0 0 1 1856 1552" fill="none" stroke="var(--cream)" stroke-width="2.2"/>
     <text x="1204" y="1610" text-anchor="middle" fill="var(--cream)" font-size="16" letter-spacing="5">LỐI VÀO</text>
-    ${legend}
     ${chairs}
     ${marks}
   </svg>`

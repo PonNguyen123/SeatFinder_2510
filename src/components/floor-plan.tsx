@@ -44,9 +44,9 @@ export function FloorPlan({ activeTable, focus, onToggleFocus }: FloorPlanProps)
         <path d={`${CANOPY} L 1836 930 L 1867 930 L 1867 1552 L 211 1552 Z`} className="fill-none stroke-cream" strokeWidth={2.4} strokeLinejoin="round" />
         <path d={CANOPY_INNER} className="fill-none stroke-cream opacity-55" strokeWidth={1.3} strokeLinejoin="round" />
 
-        <rect x={630} y={540} width={46} height={52} className="fill-cream" />
-        <rect x={996} y={540} width={48} height={52} className="fill-cream" />
-        <rect x={1363} y={540} width={46} height={52} className="fill-cream" />
+        <rect x={430} y={520} width={290} height={64} className="fill-cream" />
+        <rect x={822} y={520} width={412} height={64} className="fill-cream" />
+        <rect x={1336} y={520} width={290} height={64} className="fill-cream" />
 
         <rect x={822} y={592} width={412} height={233} className="fill-cream" />
         <text
@@ -88,22 +88,6 @@ export function FloorPlan({ activeTable, focus, onToggleFocus }: FloorPlanProps)
         <text x={1204} y={1610} textAnchor="middle" className="fill-cream font-sans" style={{ fontSize: 16, letterSpacing: "0.32em" }}>
           LỐI VÀO
         </text>
-        {(!active || !focus) && (
-          <g className="fill-cream font-sans" style={{ fontSize: 18, letterSpacing: "0.04em" }}>
-            <text x={250} y={1768}>1–2  BrandBAE</text>
-            <text x={250} y={1800}>3 · 11  Client</text>
-            <text x={250} y={1832}>4  Người thương xa</text>
-            <text x={250} y={1864}>6  VTC Academy</text>
-            <text x={820} y={1768}>5 · 9 · 15 · 16  Cyclo</text>
-            <text x={820} y={1800}>7  Time Universal</text>
-            <text x={820} y={1832}>8  Mentor Mentee</text>
-            <text x={820} y={1864}>10  Bạn chú rể</text>
-            <text x={1380} y={1768}>12  GTC</text>
-            <text x={1380} y={1800}>13  Huflit · 14  Bluer</text>
-            <text x={1380} y={1832}>18 · 21  Gia đình chú rể</text>
-            <text x={1380} y={1864}>28 · 32  ĐN của mẹ</text>
-          </g>
-        )}
 
         {tables.map((table) => {
           const on = table.id === activeTable
