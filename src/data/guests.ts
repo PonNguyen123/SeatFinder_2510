@@ -62,6 +62,7 @@ const rows: Array<[string, number, string, string?]> = [
   ["Bé Suji", 1, "Khách mời"],
   ["Bé Rint", 1, "Khách mời"],
   ["Deno", 1, "Khách mời"],
+  ["Hin Lee", 1, "Khách mời"],
   ["Dũng", 2, "Khách mời"],
   ["Cục Mây", 2, "Khách mời"],
   ["Pon", 2, "Khách mời"],
